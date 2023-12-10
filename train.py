@@ -48,7 +48,7 @@ def main():
 
     if config.huggingface:
         from transformers import CLIPTokenizer                                                      
-        tokenizer = CLIPTokenizer.from_pretrained("/opt/data/private/LH/LH/xpool/openaiclip-vit-base-patch32", TOKENIZERS_PARALLELISM=False)
+        tokenizer = CLIPTokenizer.from_pretrained("openaiclip-vit-base-patch32", TOKENIZERS_PARALLELISM=False)
     else:
         from model.tokenization_clip import SimpleTokenizer
         tokenizer = SimpleTokenizer()
