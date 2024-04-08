@@ -15,7 +15,7 @@ class CLIPTransformer(nn.Module):
         
         if self.config.huggingface:
             from transformers import CLIPModel
-            self.clip = CLIPModel.from_pretrained("/opt/data/private/LH/LH/xpool1/openaiclip-vit-base-patch32")
+            self.clip = CLIPModel.from_pretrained("/openaiclip-vit-base-patch32")
         else:
             from model.clip_model import load_clip
             self.clip = load_clip(config.clip_arch)
