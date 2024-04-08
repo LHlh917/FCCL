@@ -18,7 +18,7 @@ import os
 # import nltk
 # from nltk.stem import WordNetLemmatizer
 # from stanfordcorenlp import StanfordCoreNLP
-# nlp = StanfordCoreNLP(r'/opt/data/private/LH/xpool/stanford-corenlp-4.5.4')
+# nlp = StanfordCoreNLP(r'/stanford-corenlp-4.5.4')
 
 class MSRVTTDataset(Dataset):
     """
