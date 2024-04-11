@@ -1,4 +1,4 @@
-# FLCMA
+# FCCL
 ## Dependencies
 Our model was developed and evaluated using the following package dependencies:
 * PyTorch 1.8.1
